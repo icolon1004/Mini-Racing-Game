@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProjectFiles" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ProjectFiles.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True" SettingsObjectName="Isaiah_Colon_CPT_206_Final_Project.Properties.Settings" SettingsPropertyName="ProjectFilesConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CarStat" Member="CarStats">
+    <Type Name="CarStat">
+      <Column Name="car_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="color" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="acceleration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="enemyBumps" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="coinScoreMultiplier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CarStat" Member="CarStat1s">
+    <Type Name="CarStat1">
+      <Column Name="car_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="color" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="acceleration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="enemyBumps" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="coinScoreMultiplier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
